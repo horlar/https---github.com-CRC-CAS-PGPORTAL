@@ -344,7 +344,7 @@
 								</a>
 							</li>
 							<li class="menu-item" aria-haspopup="true">
-							<a href="<?= base_url() ?>/tps/userManagement/assignPriviledges" class="menu-link">
+								<a href="<?= base_url() ?>/tps/userManagement/assignPriviledges" class="menu-link">
 									<i class="menu-bullet menu-bullet-dot">
 										<span></span>
 									</i>
@@ -352,7 +352,7 @@
 								</a>
 							</li>
 							<li class="menu-item" aria-haspopup="true">
-								<a href="layout/themes/header-dark.html" class="menu-link">
+								<a href="<?= base_url() ?>/tps/userManagement/changePassword" class="menu-link">
 									<i class="menu-bullet menu-bullet-dot">
 										<span></span>
 									</i>

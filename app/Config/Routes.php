@@ -95,6 +95,7 @@ $routes->group('tps', function($routes){
         $routes->get('createUser', 'UserManagement::createUser');
         $routes->get('editUser', 'UserManagement::editUser');
         $routes->get('assignPriviledges', 'UserManagement::assignPriviledges');
+        $routes->get('changePassword', 'UserManagement::changePassword');
     });
 });
 

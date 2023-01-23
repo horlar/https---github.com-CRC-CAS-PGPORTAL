@@ -15,7 +15,7 @@ class Tasks extends BaseController
     
     public function scoreEntry()
     {
-        $data['pageTitle'] = 'Search for Student Results';
+        $data['pageTitle'] = 'Enter Student Results';
         return view('pages/tps/scoreEntry', $data);
     }
 

@@ -15,19 +15,25 @@ class UserManagement extends BaseController
     
     public function createUser()
     {
-        $data['pageTitle'] = 'Search for Student Results';
+        $data['pageTitle'] = 'Create User Account';
         return view('pages/tps/createUser', $data);
     }
 
     public function editUser()
     {
-        $data['pageTitle'] = 'Log Student Results';
+        $data['pageTitle'] = 'Edit User Accounts';
         return view('pages/tps/editUser', $data);
     }
     
     public function assignPriviledges()
     {
-        $data['pageTitle'] = 'Log Student Results';
+        $data['pageTitle'] = 'Assign Priviledges to Users';
         return view('pages/tps/assignPriviledges', $data);
+    }
+
+    public function changePassword()
+    {
+        $data['pageTitle'] = 'Change Users Password';
+        return view('pages/tps/changePassword', $data);
     }
 }
