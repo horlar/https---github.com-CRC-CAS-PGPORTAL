@@ -1,0 +1,24 @@
+CRITICAL - 2023-01-19 08:07:54 --> syntax error, unexpected '?>'
+in APPPATH\Views\partials\tas\sidebar.php on line 143.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('partials/tas/sidebar', null, true)
+ 3 APPPATH\Views\layout\tas\mainLayout.php(19): CodeIgniter\View\View->include('partials/tas/sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\tas\\mainLayout.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/tas/mainLayout', [], true)
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/tas/createProfile', [], true)
+ 8 APPPATH\Controllers\Profile.php(16): view('pages/tas/createProfile', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Profile->create()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 08:42:04 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Config\Routes.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 08:42:55 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Config\Routes.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,22 @@
+CRITICAL - 2023-01-23 04:38:25 --> Class 'App\Controllers\BaseController' not found
+in APPPATH\Controllers\tps\Issuance.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(283): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\tps\\Issuance.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\tps\\Issuance')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\tps\\Issuance')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\tps\\Issuance')
+ 6 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\tps\\Issuance', true)
+ 7 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:38:47 --> Class 'App\Controllers\tps\BaseController' not found
+in APPPATH\Controllers\tps\Issuance.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(283): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\tps\\Issuance.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\tps\\Issuance')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\tps\\Issuance')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\tps\\Issuance')
+ 6 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\tps\\Issuance', true)
+ 7 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

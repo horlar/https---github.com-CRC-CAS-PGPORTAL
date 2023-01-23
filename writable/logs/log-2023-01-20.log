@@ -1,0 +1,13 @@
+CRITICAL - 2023-01-20 05:56:55 --> Invalid file: assets/plugin/custom/datatables/datatables.bundle.css
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets/plugin/custom/datatables/datatables.bundle.css')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('assets/plugin/custom/datatables/datatables.bundle.css', null, true)
+ 3 APPPATH\Views\pages\tps\academicSessions.php(4): CodeIgniter\View\View->include('assets/plugin/custom/datatables/datatables.bundle.css')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\tps\\academicSessions.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/tps/academicsessions', [], true)
+ 7 APPPATH\Controllers\Setup.php(16): view('pages/tps/academicsessions', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Setup->academicsessions()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
